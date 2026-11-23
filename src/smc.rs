@@ -1,3 +1,7 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 André Eikmeyer <andre.eikmeyer@kait2en.org>
+// Copyright (C) 2026 Atharva Tiwari <atharvatiwarilinuxdev@gmail.com>
+
 use std::{
     fs::{File, OpenOptions},
     os::fd::AsRawFd,
