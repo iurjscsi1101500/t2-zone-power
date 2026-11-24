@@ -12,7 +12,7 @@ use crate::error::{Result, ZonePowerError};
 #[repr(C)]
 struct Payload {
     key: u32,
-    size: usize,
+    size: u32,
     buf: [u8; 32],
 }
 
